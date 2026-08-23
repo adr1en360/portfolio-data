@@ -1,0 +1,23 @@
+{
+  "title": "Crucible",
+  "tagline": "An AI-powered idea workspace that visualizes reasoning as a structured node graph alongside a chat interface.",
+  "stack": [
+    "React",
+    "TypeScript",
+    "Vite",
+    "FastAPI",
+    "Uvicorn",
+    "SQLite",
+    "Pydantic",
+    "Google Gemini API",
+    "React Flow",
+    "Framer Motion",
+    "Tailwind CSS"
+  ],
+  "highlights": [
+    "Eliminates conversation drift in long AI chats by externalizing reasoning onto an interactive node graph in real time.",
+    "Streams chat tokens and canvas updates simultaneously using Server-Sent Events (SSE).",
+    "Features a Contradiction Engine for real-time semantic checking of requests against assumptions."
+  ],
+  "repo_url": "https://github.com/adr1en360/Crucible"
+}
