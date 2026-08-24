@@ -1,0 +1,22 @@
+{
+  "title": "Cadence",
+  "tagline": "A managed subscription billing engine built on Nomba's payment APIs for Nigerian developers.",
+  "stack": [
+    "FastAPI",
+    "Python",
+    "PostgreSQL",
+    "SQLAlchemy",
+    "Alembic",
+    "Pydantic",
+    "Jinja2",
+    "Docker",
+    "Uvicorn",
+    "pytest"
+  ],
+  "highlights": [
+    "Designed a 7-State Billing Machine to eliminate the need for developers to write custom state machines from scratch.",
+    "Decoupled the automated dunning scheduler into an independent cron process to avoid blocking the main web server.",
+    "Orchestrated tokenized card authorizations and webhooks securely using Nomba's payment primitives."
+  ],
+  "repo_url": "https://github.com/adr1en360/Cadence"
+}
