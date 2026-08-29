@@ -1,0 +1,26 @@
+{
+  "title": "ProjectSync",
+  "tagline": "Turn shipped code into career assets in one click.",
+  "stack": [
+    "Python",
+    "FastAPI",
+    "Google ADK",
+    "Google GenAI",
+    "Gemini 3.5",
+    "Pydantic",
+    "Google Cloud Firestore",
+    "PyGithub",
+    "React",
+    "TypeScript",
+    "Vite",
+    "Docker",
+    "Google Cloud Run"
+  ],
+  "highlights": [
+    "Generates four distinct career assets from a single model call",
+    "Zero-temperature evaluator quality gate",
+    "Human-in-the-loop approval workflow with Firestore persistence",
+    "Adaptive style memory curator that learns from user edits"
+  ],
+  "repo_url": "https://github.com/adr1en360/Project-Sync"
+}
