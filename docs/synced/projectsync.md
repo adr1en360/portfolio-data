@@ -1,14 +1,35 @@
 ---
 title: ProjectSync
-stack: [Python, FastAPI, Google ADK, Google GenAI, Gemini 3.5, Pydantic, Google Cloud Firestore, PyGithub, React, TypeScript, Vite, Docker, Google Cloud Run]
-date: October 2023
+stack:
+  - Python
+  - FastAPI
+  - React
+  - TypeScript
+  - Vite
+  - Google ADK
+  - Google GenAI
+  - Pydantic
+  - Google Cloud Firestore
+  - Google Cloud Run
+  - PyGithub
+  - Vitest
+  - Pytest
+date: 2023-10-27
 ---
 
 ## What the project does
-ProjectSync automates the process of creating documentation, portfolio entries, resume bullets, and social posts from finished GitHub repositories. It turns shipped code into career assets in one click.
+ProjectSync is an autonomous Taskmaster AI Agent that extracts technical architecture details from GitHub repositories to generate multi-format career assets in a single click. It automates the creation of documentation, resume bullets, portfolio cards, and social announcements.
 
 ## How it is built
-The application is built as a 7-node Directed Acyclic Graph (DAG) workflow using Google ADK 2.0, which combines deterministic Python nodes and agentic nodes. The backend is powered by FastAPI and Google Cloud Firestore, deployed on Google Cloud Run, and serves a Vite-built React frontend directly. It features a zero-temperature evaluator quality gate, a human-in-the-loop approval workflow with Firestore persistence, an adaptive style memory curator that learns from user edits, and automatic commits of approved assets to a portfolio repository using PyGithub.
+The system is built with a React frontend powered by TypeScript and Vite, and a backend running FastAPI. The backend executes an agentic pipeline using Google ADK 2.0 designed as a 7-node Directed Acyclic Graph (DAG) workflow. 
+
+Key components include:
+- Dual-layer memory architecture featuring Semantic Style Rules and an Episodic Transaction Ledger.
+- Adaptive Curator Agent to facilitate human-in-the-loop style adaptation.
+- Dual-commit and human approval callbacks.
+- Cooperative cancellation and pipeline resumption.
+- Storage management via Google Cloud Firestore, configured for stateless deployment on Google Cloud Run.
+- Repository parsing utilizing PyGithub.
 
 ## How to run it
-The application is containerized with Docker and can be deployed to Google Cloud Run. The backend is powered by FastAPI, which directly serves the React single-page application built with Vite. Note that the repository scan does not show any CI/CD workflow configuration files, such as GitHub Actions.
+To run the backend, configure your FastAPI environment and execute the application to start the Google ADK 2.0 7-node DAG pipeline. Use Pytest to run backend tests. To run the frontend, navigate to the React directory, install the required dependencies, and launch the Vite development server. Use Vitest to execute frontend tests.
