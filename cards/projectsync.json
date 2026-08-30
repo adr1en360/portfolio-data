@@ -1,6 +1,6 @@
 {
   "title": "ProjectSync",
-  "tagline": "An autonomous Taskmaster AI Agent that turns shipped code into career assets in one click.",
+  "tagline": "An autonomous Taskmaster AI Agent that turns shipped GitHub repositories into career-ready assets with one click.",
   "stack": [
     "Python",
     "FastAPI",
@@ -9,17 +9,13 @@
     "Vite",
     "Google ADK",
     "Google GenAI",
-    "Pydantic",
     "Google Cloud Firestore",
-    "Google Cloud Run",
-    "PyGithub",
-    "Vitest",
-    "Pytest"
+    "Google Cloud Run"
   ],
   "highlights": [
-    "Engineered a 7-Node Directed Acyclic Graph agent workflow using Google ADK 2.0 to orchestrate multi-format career asset generation.",
-    "Implemented a dual-layer memory architecture combining Semantic Style Rules and an Episodic Transaction Ledger for style adaptation.",
-    "Designed a stateless backend on Google Cloud Run with Google Cloud Firestore integration to enable cooperative cancellation and resumption of pipelines."
+    "Engineered a 7-Node Directed Acyclic Graph agent workflow using Google ADK 2.0 to coordinate plain Python nodes and AI agent nodes.",
+    "Implemented a dual-layer memory architecture with Semantic Style Rules and an Episodic Transaction Ledger to maintain developer voice.",
+    "Built human-in-the-loop approval processes with dual-commit capabilities and multi-platform social draft management."
   ],
   "repo_url": "https://github.com/adr1en360/Project-Sync"
 }
